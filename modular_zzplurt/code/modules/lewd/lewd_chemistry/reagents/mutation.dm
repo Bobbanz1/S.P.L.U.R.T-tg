@@ -12,7 +12,7 @@
 	color = "#c238f8" //RGB: 194, 56, 248
 	taste_description = "Forthing Lust"
 	penetrates_skin = NONE
-	var/datum/disease/transformation/transform_disases = /datum/disease/transformation/funclaw
+	var/datum/disease/transformation/transform_disases = /datum/disease/transformation/lewd/funclaw
 
 /datum/reagent/lewd_mutation_toxin/expose_mob(mob/living/exposed_mob, methods=TOUCH, reac_volume, show_message = TRUE, touch_protection = 0)
 	. = ..()
@@ -24,18 +24,18 @@
 	name = "Forced Motherly Mutation Liquid"
 	color = "#e9c3f5" //RGB: 233, 195, 245
 	taste_description = "Lustful Milk"
-	transform_disases = /datum/disease/transformation/mommyclaw
+	transform_disases = /datum/disease/transformation/lewd/mommyclaw
 
 // Werewolf Mutation Liquid
 /datum/reagent/lewd_mutation_toxin/funwolf
 	name = "Werewolf Essence"
 	color = "#ffffff" //RGB: 255, 255, 255
 	taste_description = "Earthy and Musky"
-	transform_disases = /datum/disease/transformation/funwolf
+	transform_disases = /datum/disease/transformation/lewd/funwolf
 
 // Werewolf Bitch Mutation Liquid
 /datum/reagent/lewd_mutation_toxin/bitchwolf
 	name = "Sweet Werewolf Essence"
 	color = "#ff82f9" //RGB: 255, 130, 249
 	taste_description = "Sweet and Tangy"
-	transform_disases = /datum/disease/transformation/bitchwolf
+	transform_disases = /datum/disease/transformation/lewd/bitchwolf
